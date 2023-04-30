@@ -50,42 +50,6 @@ public class CadenaServicio {
     }
 
 
-//    public int mostarVocales(Cadena objetoCadena) {
-//        int contador = 0;
-//
-//        for (int i = 0; i < objetoCadena.getLongitudFrase(); i++);
-//        {
-//            char nuevo = objetoCadena.getFrase().charAt(i);
-//
-//            if (nuevo == 'a' || nuevo == 'A') {
-//
-//                nuevo = 'a';
-//                contador++;
-//
-//            } else if (nuevo == 'e' || nuevo == 'E') {
-//
-//                nuevo = 'e';
-//                contador++;
-//
-//            } else if (nuevo == 'i' || nuevo == 'I') {
-//
-//                nuevo = 'i';
-//                contador++;
-//
-//            } else if (nuevo == 'o' || nuevo == 'O') {
-//
-//                nuevo = 'o';
-//                contador++;
-//
-//            } else if (nuevo == 'u' || nuevo == 'U') {
-//
-//                nuevo = 'u';
-//                contador++;
-//            }
-//        }
-//        return contador;
-//    }
-
     //Metodo b)
     public void invertirFrase(Cadena objetoCadena) {
 
