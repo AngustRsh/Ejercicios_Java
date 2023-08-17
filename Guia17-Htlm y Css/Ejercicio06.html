@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ejercicio06</title>
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="direcciona a donde sera enviado" method="post">
+        <label for="usuario">Nombre del usuario</label>
+        <br>
+        <input type="text" name="nombreDeUsuario" id="usuario" required>
+        <br>
+        <label for="password">Contrasenia del Usuario</label>
+        <br>
+        <input type="password" name="passwordUsuario" id="password" required>
+        <br>
+        <label for="age">Edad del Usuario</label>
+        <br>
+        <input type="number" name="ageUsuario" id="age" required>
+        <br>
+        <label for="date">Fecha de Nacimiento del Usuario</label>
+        <br>
+        <input type="date" name="dateUsuario" id="date" required>
+        <br>
+        <label for="gender">Sexo del Usuario</label>
+        <br>
+        <input type="radio" name="mujer" value="1">
+        <label>Mujer</label>
+        <br>
+        <input type="radio" name="mujer" value="2">
+        <label for="hombre">Hombre</label>
+        <br>
+        <input type="radio" name="mujer" id="p">
+        <label for="p">Prefiero no decirlo
+        </label>
+        <br>
+
+        <!-- <fieldset>
+            El elemento legend actúa como una leyenda/descripción,
+            para el contenido del elemento fieldset(encierra los botones en una caja propia).
+            Le da a los usuarios un contexto sobre lo que deben ingresar en esa parte del formulario.
+          <legend>botones radio?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset> -->
+
+        <label for="pais">Pais nacimiento del usuario</label>
+        <br>
+        <select name="pais" id="pa">
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Colombia</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+
+</html>

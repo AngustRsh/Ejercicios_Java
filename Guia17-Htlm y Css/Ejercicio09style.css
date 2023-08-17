@@ -1,0 +1,64 @@
+#titulo {
+    color: rgb(40, 113, 89);
+}
+
+.subtitulo {
+    color: blue;
+}
+
+.destacado {
+    color: orange;
+}
+
+p strong{
+    color: red;
+}
+#subtitulo{
+    color: blue;
+}
+a{
+    color: rgb(252, 90, 15);
+}
+p em{
+    color: blue;
+}
+span.especial{
+    color: rgb(169, 24, 169)
+}
+
+.especial{
+    color: orange;
+}
+.purus{
+    color: orange;
+}
+table {
+    color: rgb(0, 128, 58);
+    width: 60%; /* Ancho de la tabla */
+    border-collapse: collapse;
+    /*border: 1px solid black;*/ /* Borde de la tabla */
+}
+th {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: left;
+    color: red; /* Color del texto */
+}
+td{
+    border: 1px solid black;
+    padding: 3px;
+    text-align: left;
+}
+
+caption{
+    color:white;
+}
+#adicional{
+    color: rgb(132, 158, 13);
+}
+#especial{
+    color: rgb(247, 41, 236);
+}
+#adicional a{
+    color: rgb(73, 176, 8);
+}

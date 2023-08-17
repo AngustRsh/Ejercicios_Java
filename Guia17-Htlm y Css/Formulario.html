@@ -12,9 +12,14 @@
         <div>
             <form action="/controlador-registro" method="POST" class="form-registro" enctype="multipart/form-data">
                 <div>
-                    <label for="nombre">Nombre y Apellido</label>
+                    <label for="nombre">Nombre del usuario</label>
                     <br>
-                    <input name="nombre" type="text" placeholder="Nombre y Apellido" required>
+                    <input name="nombre" type="text" placeholder="Nombre del usuario" required>
+                </div>
+                <div>
+                    <label for="contraseña">Contraseña del usuario</label>
+                    <br>
+                    <input name="contraseña" type="password" placeholder="Contraseña del usuario" required>
                 </div>
                 <div>
                     <label for="mail">Ingrese email</label>
@@ -26,11 +31,7 @@
                     <br>
                     <input name="dni" type="number" placeholder="11111111" required>
                 </div>
-                <div>
-                    <label for="contraseña">Contraseña</label>
-                    <br>
-                    <input name="contraseña" type="password" placeholder="contraseña" required>
-                </div>
+
                 <div>
                     <label for="femenino">Femenino</label>
                     <input name="femenino" type="radio" value="f">                    
