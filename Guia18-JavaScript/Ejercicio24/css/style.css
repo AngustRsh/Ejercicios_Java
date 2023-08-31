@@ -1,0 +1,42 @@
+#label{
+    background-color: rgb(148, 232, 37);
+    border-radius: 20px;
+}
+#diametro{
+    background-color: rgb(243, 223, 73);
+    border-color: rgb(243, 223, 73);
+    border-radius: 25px;
+}
+
+.btn {
+    background-color: blueviolet;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(113, 43, 244);
+    animation: colorChange 4s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(113, 43, 244);
+    }
+    25% {
+        background-color: rgb(74, 30, 227);
+    }
+    50% {
+        background-color: rgb(52, 87, 238);
+    }
+    75% {
+        background-color: rgb(85, 28, 234);
+    }
+    100% {
+        background-color: blueviolet;
+    }
+}
+
+#resultado{
+    background-color: rgb(228, 109, 109);
+    
+}
